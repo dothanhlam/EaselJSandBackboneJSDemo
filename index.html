@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+    <head>
+        <title>EaselJS and BackboneJS in a home</title>
+        <meta name="description" content="An application that demonstrates the integration of backbonejs and easeljs">
+        <meta name="author" content="Lam Do - dothanhlam@gmail.com">
+        <style>
+            #container {
+                width: 800px;
+                height: 400px;
+                margin: auto;
+            }
+        </style>
+    <!-- JS libraries -->
+        <script src="assets/js/libs/jquery/jquery-1.9.1.js"></script>
+        <script src="assets/js/libs/easeljs/createjs-2013.02.12.min.js"></script>
+        <script src="assets/js/libs/easeljs/easeljs-0.6.0.min.js"></script>
+        <script src="assets/js/libs/underscore/underscore.js"></script>
+        <script src="assets/js/libs/backbonejs/backbone.js"></script>
+    <!-- JS modules -->
+        <script src="src/model/settings.js"></script>
+        <script src="src/view/game.js"></script>
+        <script src="src/application.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="main" width="800" height="400"></canvas>
+        </div>
+    </body>
+</html>
